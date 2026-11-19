@@ -1,0 +1,6 @@
+problem,delivery_id,invoice_no,sku,po_no,bill_id,supplier,message_id,amount,month,cause,finding_id
+Delivery never invoiced,D-260915-9991,,,,,,,297.50,september,Delivery D-260915-9991 never invoiced,EX-NOTINV-D-260915-9991
+Old price after increase,,1099901,NL-99001,,,,,7.52,september,NL-99001 still at its pre-Sep 14 price,EX-OLDPRICE-1099901-NL-99001
+Old price after increase,,1099907,NL-99001,,,,,3.76,september,NL-99001 still at its pre-Sep 14 price,EX-OLDPRICE-1099907-NL-99001
+Supplier billed above PO price,,,NL-99002,PO-29901,B-69901,Example Paper Co.,,24.00,september,Example Paper Co. billing above PO prices,EX-OVERPO-B-69901-NL-99002
+Customer email with no reply,,,,,,,M-999901,0,october,Unanswered customer email,EX-NOREPLY-M-999901

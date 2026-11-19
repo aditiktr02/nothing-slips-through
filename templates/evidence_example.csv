@@ -1,0 +1,11 @@
+finding_id,file,record,shows,expected
+EX-NOTINV-D-260915-9991,delivery_log.csv,delivery D-260915-9991 (4 lines),"Delivered Sep 15: 4 lines, 9 cases, $262.50 at correct prices",An invoice by Sep 18
+EX-NOTINV-D-260915-9991,invoices.csv,all invoices,No invoice memo mentions D-260915-9991,One invoice for this delivery
+EX-OLDPRICE-1099901-NL-99001,invoices.csv,"invoice 1099901, line 2",rate $43.24 x 4 cases,$45.12 a case
+EX-OLDPRICE-1099901-NL-99001,products.csv,NL-99001,list $48.00 from Sep 14 (before: $46.00),Deliveries from Sep 14 use $48.00
+EX-OLDPRICE-1099901-NL-99001,customers.csv,Example Café,tier B (6% off) since 2024,
+EX-OLDPRICE-1099901-NL-99001,delivery_log.csv,"delivery D-260916-9992, NL-99001",4 cases delivered Sep 16,
+EX-OVERPO-B-69901-NL-99002,supplier_bills.csv,"bill B-69901, line 3",unit_cost $31.00 x 12 cases,$29.00 a case
+EX-OVERPO-B-69901-NL-99002,purchase_orders.csv,"PO-29901, line 3",unit_cost $29.00; 12 cases accepted,
+EX-NOREPLY-M-999901,inbox.csv,message M-999901,"Customer asks for a certificate of insurance, Oct 6 10:14",A reply by the end of Oct 7
+EX-NOREPLY-M-999901,inbox.csv,thread T-99901,No later message in the thread,
